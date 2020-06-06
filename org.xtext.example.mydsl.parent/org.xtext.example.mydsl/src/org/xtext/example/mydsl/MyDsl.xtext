@@ -1,0 +1,22 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+Scenario:
+	"debut Scenario" name=STRING "titre" titleScenario=STRING
+	casDeTests+=CasDeTest+
+	"fin Scenario"
+;
+		
+CasDeTest :
+	"Cas de test : " titreCasDeTest= STRING
+	actions+=Action+
+;
+
+Action :
+	action=TYPE (valeur=STRING | valeur=STRING "|" texte=STRING )
+;
+
+
+terminal TYPE : "ouvrir url" | "saisir identifiant" | "saisir mot de passe" | "clic id=" | "naviguer" | "verifier id="  ;
+
