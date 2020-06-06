@@ -1,9 +1,5 @@
-# DslToGherkin
-Ce répertoire contiendra uniquement les codes sources du DSL qui permet de générer des cas de tests au format Gherkin.
-
 [![GitHub issues](https://img.shields.io/github/issues/sankarvijay/DslToGherkin.svg)](https://github.com/sankarvijay/DslToGherkin/issues)
 [![License](https://img.shields.io/github/license/sankarvijay/DslToGherkin.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/github/release/sankarvijay/DslToGherkin.svg?label=version&style=flat-square)](build.gradle)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 # DslToGherkin
