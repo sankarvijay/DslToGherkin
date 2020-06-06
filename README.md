@@ -10,7 +10,7 @@
 
 Un DSL (Domain-Specific Language) qui permet de founir aux utilisateurs proche du métier un outil convivial pour réaliser les cas de tests.
 
-DslToGherkin est un outil qui vous permettra de réaliser vos cas de tests en toute facilité, 
+DslToGherkin est un outil qui vous permettra de réaliser vos cas de tests en toute facilité.
 
 ## Auteurs
 * **SANKAR Vijay** - [Github](https://github.com/sankarvijay)
